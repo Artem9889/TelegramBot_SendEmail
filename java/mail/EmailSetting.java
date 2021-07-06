@@ -43,7 +43,7 @@ public class EmailSetting {
             message.setSubject(subject);
             //вміст листа
             message.setText(TelegramBotSetting.text);
-            //Отправка листа
+            //Відправка листа
 
             Transport.send(message);
         } catch (MessagingException e) {
